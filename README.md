@@ -1,5 +1,8 @@
-# Batch_Adaptive_Framework
-  Batch Adaptive Framework is an optimization designed to adaptively choose batch size for machine learning. It is implemented by Theano.
+# Batch daptive Framework
+  Batch Adaptive Framework is an optimization algorithm framework designed to adapt the batch size as learning proceeds. Now it supports two optimization algorithms, batch adaptive SGD (BA-SGD) and batch adaptive Momentum (BA-Momentum). This framework is implemented in two versions, one with Theano, another with Pytorch.
+
+# Related Papers
+The batch adaptive framework is first designed in [Small Batch or Large Batch? Gaussian Walk with Rebound Can Teach](http://www.kdd.org/kdd2017/papers/view/small-batch-or-large-batch-gaussian-walk-with-rebound-can-teach), and extended in [On Batch Adaptive Training for Deep Learning: Lower Loss and Larger Step Size](https://openreview.net/forum?id=SybqeKgA-). Check them out if you are interested.
  
 ## Help to Make Batch Adaptive Better
 
