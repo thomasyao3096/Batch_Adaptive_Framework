@@ -2,7 +2,7 @@ import numpy as np
 import os
 import theano
 
-datasets_dir = '../fashion-mnist/data/'
+datasets_dir = 'fashion-mnist/data/'
 
 def one_hot(x,n):
 	if type(x) == list:
