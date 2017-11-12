@@ -6,7 +6,7 @@ from load_fashion_mnist import mnist
 from load_fashion_mnist import prepare_data
 from theano.tensor.nnet.conv import conv2d
 from theano.tensor.signal.downsample import max_pool_2d
-from batch_adaptive_optimizers_up import batch_adaptive_optimizer
+from batch_adaptive_optimizers_theano import batch_adaptive_optimizer
 from collections import OrderedDict
 
 
